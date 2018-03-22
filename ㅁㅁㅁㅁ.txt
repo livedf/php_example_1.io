@@ -1,0 +1,45 @@
+htdocs(home)
+|
+|-- index.php
+|
+|-- header.php
+|
+|-- footer.php
+|
+|-- config.php ====== db설정 정보
+|
+|-- preset.php
+|
+|-- member
+|           |
+|           |-- login.php
+|           |
+|           |-- login_check.php
+|           |
+|           |-- login_pass.php
+|           |
+|           |-- logout.php
+|           |
+|           |-- signup.php
+|           |
+|           |-- signup_check.php
+|           |
+|           |--signup_pass.php
+|
+|--      bbs 
+|           |     
+|           |-- contact.php
+|           |
+|           |-- view.php
+|           |
+|           |-- list.php
+|
+|--        js
+|           |
+|           |-- jquery.js
+|           |
+|           |-- slider.js
+|           |
+|           |-- box.js
+|
+|
