@@ -1,6 +1,6 @@
 <?php
 include_once ('../config.php');
-mysqli = new mysqli($DB['host'], $DB['id'], $DB['pw'], $DB['db']);
+$mysqli = new mysqli($DB['host'], $DB['id'], $DB['pw'], $DB['db']);
 if (mysqli_connect_error()) {
     exit('Connect Error (' . mysqli_connect_errno() . ') '.
     mysqli_connect_error());
@@ -41,3 +41,5 @@ if($result->num_rows==1) {
         header("Location: ../index.php");  // 처음으로 돌아감
         exit();
 }
+
+?>
